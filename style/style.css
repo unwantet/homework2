@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    flex-wrap: wrap;
+}
+.start img{
+    width: 166px;
+    height: 49px;
+    top: 65px;
+    left: 80px;
+
+
+}
+
+.ul{
+    display: flex;
+    gap: 57px;
+    color: #07043B;
+    flex-wrap: wrap;
+
+}
+li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    cursor: pointer;
+}
+
+li:hover{
+    color: gray;
+}
+
+.first-section{
+    display: flex;
+    width: auto;
+    height: 474px;
+    margin-top: 86px;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+
+.main-tit{
+    height: 207px;
+    width: 627px;
+    margin-top: 77px;
+}
+
+.main-tit img{
+    width: 640px;
+    height: 474px;
+    top: 200px;
+    left: 720px;
+
+}
+
+.main-tit h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.main-tit p{
+    color: #07043B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 24px;
+    letter-spacing: 0.531px;
+    width: 585px;
+}
+
+.inputs input{
+    width: 320px;
+    height: 45px;
+    flex-shrink: 0;
+    padding: 14px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.635);
+
+}
+
+.inputs button{
+    width: 200px;
+    height: 45px;
+    flex-shrink: 0;
+    background-color: #2F65F8;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    border: solid 1px;
+}
+.inputs{
+    gap: 16px;
+    margin-top: 25px;
+}
+
+.second-section{
+    width: auto;
+    height: 784px;
+    margin-top: 164px;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/Rectangle\ \(1\).png);
+    padding: 0 80px;
+    flex-wrap: wrap;
+
+}
+.tits h1{
+    color: #07043B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 650px;
+}
+.p{
+    width: 529px;
+    color: #07043B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 38px;
+}
+
+.pi{
+    width: 529px;
+    color: #07043B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.link a{
+    color: #3DA08F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link a:hover{
+    color: #396059;
+}
+
+.card{
+    width: 356px;
+    height: 215px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.05);
+    padding: 27px 34px 0 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+}
+
+.card p{
+    margin-top: 19px;
+}
+
+.burton{
+    width: 137px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+ .burton-tit h3{
+    color: #07043B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+ }
+ .burton-tit p{
+    color: #07043B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; 
+    letter-spacing: 0.4px;
+    margin-top: 0;
+ }
+
+ .img{
+    width: 542px;
+    height: 409px;
+ }
+
+ .third-section{
+    width: auto;
+    height: 322px;
+    background-color: #575988;
+ }
+ 
+.last-tit h1{
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.last-tit p{
+    width: 533px;
+    color: #FFF;
+    font-family:open sans ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 17px;
+}
+
+.last-sec{
+    width: auto;
+    height: 322px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.join input{
+    width: 480px;
+    height: 48px;
+    padding: 14px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.635);
+    display: block;
+
+}
+
+.join button{
+    width: 200px;
+    height: 48px;
+    background-color: #2F65F8;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    outline: none;
+    margin-top: 16px;
+    border: 0px solid;
+}
+.join{
+    gap: 16px;
+    margin-top: 25px;
+}
+
+footer{
+    width: auto;
+    height: auto;  
+    background-color: #07043B;
+    
+}
+
+.con{
+    width: auto;
+    height: auto; 
+    padding-top: 92px;
+}
+
+.com-logo{
+    margin-left: 120px;
+}
+
+.mail-tel a{
+    color: #FFF;
+    font-family: open sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.mail-tel a:hover{
+    color: rgb(87, 87, 87);
+}
+
+.mail-tel{
+    height: 260px;
+    user-select: auto;
+    
+}
+
+.mail-tel:nth-child(2){
+    margin-top: 15px;
+}
+.info{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50VH;
+    padding-top: 37px;
+    user-select: none;
+}
+
+li{
+    list-style: none;
+    margin-top: 16px;
+    user-select: none;
+}
+ul{
+    color: #FFF;
+    font-family: open sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logos img{
+    width: 31.224px;
+    height: 31px;
+}
+.logos{
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+
+}
+.lii{
+    margin-top: 0;
+}
